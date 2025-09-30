@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.fafa-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(58, 133, 246, 0.875);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgba(58, 133, 246, 0.875);
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .fafa-contato button:hover{
+    box-shadow: 0px 0px 8px  rgba(58, 133, 246, 0.875);
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site{
+      position: relative;
+      animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+section.skills{
+    padding: 40px 4%;
+}
+
+section.skills .flex{
+    gap: 60px;
+}
+
+.skills .skills-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.skills .skills-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff78;
+}
+
+.skills .skills-box i{
+    font-size: 70px;
+    color: rgba(58, 133, 246, 0.875);
+}
+
+.skills .skills-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+
+section.meus-projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3e;
+}
+
+section.meus-projetos .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-proj{
+    width: 360px;
+    height: 460px;
+    background-color: rgba(58, 133, 246, 0.875);
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-proj:hover{
+    background-position: 100% 0%;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.capa:hover{
+    opacity: 1;
+}
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3e;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+    border-top: 2px solid rgba(58, 133, 246, 0.875);
+}
+
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rede-sociais a {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(58, 133, 246, 0.875);
+    border-radius: 30px;
+    transition: .2s;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.rede-sociais a:hover {
+    box-shadow: 0px 0px 8px rgba(58, 133, 246, 0.875);
+}
+
+footer .line-footer p i {
+    color: rgba(58, 133, 246, 0.875);
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
